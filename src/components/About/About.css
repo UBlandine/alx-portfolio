@@ -1,0 +1,63 @@
+.about {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 10%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text h2 span {
+  color: #00d1b2; /* Highlight color */
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.about-buttons .btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.about-buttons .hire-me {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+.about-buttons .download-cv {
+  background-color: #444;
+  color: #fff;
+}
+
+.about-buttons .btn:hover {
+  opacity: 0.9;
+}
