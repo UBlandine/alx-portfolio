@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import image from "../../image/Blando.jpg"
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         {/* Left Section: Image */}
         <div className="about-image">
           <img
-            src="https://via.placeholder.com/400x400" 
+            src={image} 
             alt="Profile"
           />
         </div>
