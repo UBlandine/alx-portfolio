@@ -1,8 +1,8 @@
 import React from "react";
 import "./Services.css";
-import "../../image/ali-morshedlou-WMD64tMfc4k-unsplash.jpg";
-import "../../image/bruce-mars-8YG31Xn4dSw-unsplash.jpg0";
-import "../../image/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg"
+// import "../../image/ali-morshedlou-WMD64tMfc4k-unsplash.jpg";
+// import "../../image/bruce-mars-8YG31Xn4dSw-unsplash.jpg0";
+// import "../../image/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg"
 
 const services = [
   {
