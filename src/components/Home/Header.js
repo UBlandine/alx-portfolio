@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link for React Router
+import { Link } from "react-router-dom"; 
 import "./Home.css";
 
 const Header = () => {
@@ -8,8 +8,8 @@ const Header = () => {
       <nav className="navbar">
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/services">Services</Link></li>
+          <li><Link to="#about">About</Link></li>
+          <li><Link to="#services">Services</Link></li>
 
           <li className="dropdown-container">
             <Link to="#dropdown" className="dropdown-toggle">Dropdown</Link>
@@ -18,7 +18,7 @@ const Header = () => {
               <li><Link to="#option2">Option 2</Link></li>
             </ul>
           </li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="#contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

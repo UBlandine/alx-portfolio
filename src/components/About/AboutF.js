@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import "./About.css";
-import image from "../../image/Blando.jpg"
+import image from "../../image/Blando.jpg";
+import cvFile from "../../assets/CV-2024.pdf";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about-container">
         {/* Left Section: Image */}
         <div className="about-image">
           <img
-            src={image} 
+            src={image}
             alt="Profile"
           />
         </div>
@@ -28,9 +31,17 @@ const About = () => {
             the necessary regelialia. It is a paradisematic country, in which
             roasted parts of sentences fly into your mouth.
           </p>
+          <br />
           <div className="about-buttons">
-            <button className="btn hire-me">Hire Me</button>
-            <button className="btn download-cv">Download CV</button>
+            {/* Use ScrollLink for smooth scrolling */}
+            <Link to="/signup">
+    <button className="btn hire-me">Hire Me</button>
+  </Link>
+
+            {/* Download CV link */}
+            <a href={cvFile} download="CV-2024.pdf" className="btn download-cv">
+              Download CV
+            </a>
           </div>
         </div>
       </div>
