@@ -6,7 +6,7 @@ import About from "../About/AboutF";
 import Services from "../Services/ServicesF";
 
 import Client from "../Client/ClientTes";
-
+import Resume from "../Resume/ResumeF";
 import Contact from "../Contact/ContactF";
 import "./Home.css";
 
@@ -24,6 +24,7 @@ const Home = () => {
     <About/>
     <Services/>
     <Client/>
+    <Resume/>
     <Contact/>
     </div>
    
