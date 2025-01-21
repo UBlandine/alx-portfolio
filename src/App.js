@@ -1,6 +1,6 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; 
+
+import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom"; 
 import Home from "./components/Home/HomeF";
 import About from "./components/About/AboutF";
 import Resume from "./components/Resume/ResumeF";
