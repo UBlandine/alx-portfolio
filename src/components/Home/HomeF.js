@@ -3,7 +3,6 @@ import Header from "../Home/Header";
 import About from "../About/AboutF";
 import Resume from "../Resume/ResumeF";
 import Services from "../Services/ServicesF";
-import Client from "../Client/ClientTes";
 import Contact from "../Contact/ContactF";
 import "./Home.css";
 
@@ -41,7 +40,6 @@ const Home = () => {
       <About />
       <Resume />
       <Services />
-      <Client />
       <Contact />
     </div>
   );

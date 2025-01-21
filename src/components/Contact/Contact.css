@@ -1,53 +1,53 @@
-/* General Page Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
+/* General Contact Page Styles */
 .contact-page {
-  background-color: #1e1e1e;
+  background-color: #1a1a1a;
   color: white;
+  padding: 40px 20px; 
   min-height: 100vh;
-  max-width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  margin-left: 60px;
 }
 
+/* Title Styling */
 .title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
 }
 
+.span {
+  color: #6bb0f0;
+}
+
 /* Contact Container */
 .contact-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  max-width: 900px;
-  padding: 20px;
- 
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 900px; 
+  width: 100%;
+  margin: 0 auto; 
 }
 
-/* Contact Form */
+/* Contact Form Styles */
 .contact-form {
-  flex: .5;
-  margin-left: 7%;
-  min-width: 200px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
   margin-bottom: 20px;
-  /* margin-top: 20px; */
 }
 
 .form-input,
 .form-textarea {
-  width: 120%;
+  width: 110%;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 5px;
   border: none;
   background-color: #2d2d2d;
@@ -59,11 +59,9 @@ body {
   height: 150px;
   resize: none;
 }
-.span{
-  color: #6bb0f0;
-}
+
 .submit-button {
-  width: 50%;
+  width: 100%;
   padding: 10px;
   background-color: #6bb0f0;
   color: black;
@@ -80,9 +78,10 @@ body {
 
 /* Contact Details */
 .contact-details {
-  flex: 2;
-  min-width: 300px;
-  margin-left: 300px;
+  flex: 1;
+  margin-left: 50px;
+  min-width: 250px;
+  max-width: 500px;
 }
 
 .contact-details h2 {
@@ -121,12 +120,33 @@ body {
 }
 
 .social-icon {
-  margin: 30px 20px;
+  margin: 0 10px;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   transition: color 0.3s;
 }
 
 .social-icon:hover {
   color: #6bb0f0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form,
+  .contact-details {
+    max-width: 90%;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
 }
