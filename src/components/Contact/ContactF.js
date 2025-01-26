@@ -83,7 +83,7 @@ const ContactPage = () => {
     >
       <i className="fab fa-linkedin-in"></i>
     </a>
-    <a href="https://vimeo.com/yourprofile" className="social-icon">
+    <a href="https://www.loom.com/profile/Blandine-8cf66c45-cbb4-418e-8f4b-d91b71e3b258" className="social-icon">
       <i className="fab fa-vimeo-v"></i>
     </a>
   </div>
