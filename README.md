@@ -35,6 +35,7 @@ Project Architecture
 - Node.js and npm installed
 - MongoDB set up
 - Clone both repostories
+
     Frontend: (https://github.com/UBlandine/alx-portfolio) 
     Backend: (https://github.com/UBlandine/backend-portfolio) 
 
