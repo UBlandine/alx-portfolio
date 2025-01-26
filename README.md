@@ -1,70 +1,91 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal Portfolio Web Application
 
-## Available Scripts
+This is my professional portfolio showcasing my expertise in software development. It highlights my projects, technical skills, and experiences in a clean and visually appealing manner. The application is designed to attract potential clients, collaborators, and employers.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+- Dynamic Project Showcase:Includes filtering and categorization for easy navigation.
+- Skills Visualization: Interactive charts for skill representation.
+- Contact Section: Secure and user-friendly contact form for inquiries.
+- Swagger API Documentation:Access my backend API through comprehensive Swagger documentation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Frontend
+- Framework: ReactJS
+- Styling:CSS
+- Deployment: Netlify
 
-### `npm test`
+Backend
+- Language: Node.js with JavaScript
+- Database: MongoDB
+- Authentication: JWT-based secure login
+- API Documentation: Swagger 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Architecture
 
-### `npm run build`
+1. Frontend: Built for a responsive and modern user experience.
+2. Backend: Handles API logic, authentication, and database operations. Swagger documentation is included for seamless API interaction.
+3. Database: PostgreSQL is used for data persistence and scalability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ How to Run the Project Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Prerequisites
+- Node.js and npm installed
+- MongoDB set up
+- Clone both repostories
+    Frontend: (https://github.com/UBlandine/alx-portfolio) 
+    Backend: (https://github.com/UBlandine/backend-portfolio) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Frontend Setup
+1. Clone the frontend repository:
+   bash
+   git clone https://github.com/UBlandine/alx-portfolio
+   cd your-frontend-repo
+   
+2. Install dependencies:
+   bash
+   npm install
+   
+3. Start the development server:
+   bash
+   npm start
+   
 
-### `npm run eject`
+ Backend Setup
+1. Clone the backend repository:
+   bash
+   git clone https://github.com/UBlandine/backend-portfolio
+   cd backend-portfolio
+   
+2. Install dependencies:
+   bash
+   npm install
+   
+3. Set up environment variables (.env file):
+   
+   DATABASE_URL=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   
+4. Run the backend server:
+   bash
+   npm run dev
+   
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Access Swagger Documentation
+Navigate to `http://localhost:5000/api-docs` to view Swagger API documentation.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Next Steps
+- Integrate additional features like a blog section and downloadable resume.
+- Conduct further testing and optimization for scalability.
+- Expand the portfolio to include testimonials and analytics.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Deployed Links
+- Frontend: [Portfolio Live Site](https://blandop.netlify.app/)
+- Backend: [Backend Repository](https://github.com/UBlandine/backend-portfolio)
+- API Documentation: Accessible via Swagger.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contact
+Feel free to reach out through the [contact form](https://blandop.netlify.app/contact) on my portfolio site!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
