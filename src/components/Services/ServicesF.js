@@ -6,8 +6,8 @@ const Services = () => {
     {
       title: "Web Design",
       description:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
-      icon: "🌐", // Placeholder icon
+        "I am a creative web designer passionate about crafting visually appealing and user-friendly websites. I focus on designing engaging layouts, intuitive user interfaces, and seamless user experiences. With a strong understanding of design principles and web technologies, I work closely with clients to bring their visions to life.",
+      icon: "🌐",
       link: "#",
     },
     {
