@@ -75,7 +75,7 @@ Project Architecture
    
 
  Access Swagger Documentation
-Navigate to `http://localhost:5000/api-docs` to view Swagger API documentation.
+Navigate to `https://backend-portfolio-3-vroc.onrender.com/api-docs/` to view Swagger API documentation.
 
 Next Steps
 - Integrate additional features like a blog section and downloadable resume.
